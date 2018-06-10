@@ -1,6 +1,6 @@
 This uses the concept of splitting ScenarioOutline tables into separate Example sections to surround with a setup and teardown method.
 
-Let's try an model a atheletics relay race (4X100m) into a Cucumber scenario. A simple approach would be to repeat steps for each runner, leading to a long scenario with repeation. So how about using a scenariooutline and extracting the common variables, like serial number of runner and from to end distance marker for each runner. Possibly something similar to below.
+Let's try to model an atheletics relay race (4X100m) into a Cucumber scenario. A simple approach would be to repeat steps for each runner, leading to a long scenario with repeation. So how about using a scenariooutline and extracting the common variables, like number of runner and from to end distance marker for each runner. Possibly something similar to below.
 
 Scenario Outline: 
     Given <runner> runner <state> baton in hand
