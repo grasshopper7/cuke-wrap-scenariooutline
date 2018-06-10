@@ -6,7 +6,6 @@ Scenario Outline:
     Given <runner> runner <state> baton in hand
     When Runner starts running
     Then Runner runs required <distmarker>
-
     Examples: 
       | runner | distmarker | state |
       | First  | 100        | has   |
@@ -20,7 +19,6 @@ Scenario Outline:
     Given <runner> runner <state> baton in hand
     When Runner starts running
     Then Runner runs required <distance>
-
     @First
     Examples: 
       | runner | distance | state |
