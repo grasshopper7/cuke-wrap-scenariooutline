@@ -1,4 +1,4 @@
-Refer to this for a detailed explanation - http://ghchirp.tech/126/
+Refer to this for a detailed explanation - http://ghchirp.online/126/
 
 This uses the concept of splitting ScenarioOutline tables into separate Example sections to surround with a setup and teardown method.
 
